@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Find out more about Anna Eggenberger and her frontend development abiltities">
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -34,9 +35,41 @@
       crossorigin="anonymous"
     ></script>
     <!-- Font Awesome End -->
-    <title>Document</title>
+    <title>More information about Anna Eggenberger</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+        /></a>
+        <a href="/" title="Homepage"
+          ><img
+            src="images/logo_small.jpeg"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Anna">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Anna's Work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Anna">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -53,9 +86,50 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="images/Lebenslauf_Foto.jpg" alt="" class="img-fluid m-10" />
+          <img src="images/Lebenslauf_Foto.jpg" alt="picture of Anna Eggenberger standing in an office with a blurred background" class="img-fluid m-10" />
         </div>
       </div>
+           <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 mt-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Anna"> Contact me </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:anna.eggenberger@ehl.ch" class="email-link" title="Email Anna"
+            >anna.eggenberger@ehl.ch</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://instagram.com/thisisanna1" target="_blank" title="Instagram Profile">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/AnnaEggenberger" target="_blank" title="GitHub Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anna-eggenberger"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+        <p class="text-center copyright"> Coded by 
+          <a href="https://github.com/AnnaEggenberger/" target="_blank" title="Go to Github Profile">
+          Anna Eggenberger</a> and is 
+        <a href="https://github.com/AnnaEggenberger/portfolio-project" target="_blank" title="Go to Project on Github">
+          open-sourced on GitHub</a> 
+        and 
+        <a href="https://peppy-kangaroo-5d9d61.netlify.app/" target="_blank" title="Go to Netlify hosting">
+          hosted on Netlify</a> </p>
+      </footer>
     </div>
   </body>
 </html>

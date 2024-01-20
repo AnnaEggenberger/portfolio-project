@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Anna to work together via email or social media"
+    />
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -34,29 +38,110 @@
       crossorigin="anonymous"
     ></script>
     <!-- Font Awesome End -->
-    <title>Document</title>
+    <title>Contact Anna Eggenberger via different channels</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+        /></a>
+        <a href="/" title="Homepage"
+          ><img
+            src="images/logo_small.jpeg"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Anna">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Anna's Work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Anna">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="content text-center">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:anna.eggenberger@ehl.ch">anna.eggenberger@ehl.ch </a>
+          <a href="mailto:anna.eggenberger@ehl.ch" title="Contact via email"
+            >anna.eggenberger@ehl.ch
+          </a>
         </p>
         <h3>Instagram</h3>
         <p>
-          <a href="https://instagram.com/thisisanna1" target="_blank"
+          <a
+            href="https://instagram.com/thisisanna1"
+            target="_blank"
+            title="Contact via instagram"
             >@thisisanna1</a
           >
         </p>
         <h3>LinkedIn</h3>
         <p>
-          <a href="https://www.linkedin.com/in/anna-eggenberger" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/anna-eggenberger"
+            target="_blank"
+            title="Contact via LinkedIn"
             >/anna-eggenberger</a
           >
         </p>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 mt-5 d-none"
+        >
+          <div>
+            <h3>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Anna"> Contact me </a>
+          </div>
+        </div>
+        <div class="d-none justify-content-center mb-5">
+          <a href="mailto:anna.eggenberger@ehl.ch" class="email-link" title="Email Anna"
+            >anna.eggenberger@ehl.ch</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://instagram.com/thisisanna1" target="_blank" title="Instagram Profile">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/AnnaEggenberger" target="_blank" title="GitHub Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anna-eggenberger"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+        <p class="text-center copyright"> Coded by 
+          <a href="https://github.com/AnnaEggenberger/" target="_blank" title="Go to Github profile">
+          Anna Eggenberger</a> and is 
+        <a href="https://github.com/AnnaEggenberger/portfolio-project" target="_blank" title="Go to project on Github">
+          open-sourced on GitHub</a> 
+        and 
+        <a href="https://peppy-kangaroo-5d9d61.netlify.app/" target="_blank" title="Go to Netlify hosting">
+          hosted on Netlify</a> </p>
+      </footer>
     </div>
   </body>
 </html>
